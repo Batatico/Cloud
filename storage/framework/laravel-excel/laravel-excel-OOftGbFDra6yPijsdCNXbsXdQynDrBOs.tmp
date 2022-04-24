@@ -1,0 +1,3 @@
+INSERT INTO Empleado (rut, nombre, direccion, salario, bono, cargasFamiliares) VALUES('10.567.345-k','Joaquin Lavin','Heroes de la Concepción 1005',2000000 , 1000000 , 8);
+UPDATE Empleado SET salario = 4000000 WHERE rut='10.567.345-k';
+DELETE Empleado WHERE rut='10.567.345-k';
